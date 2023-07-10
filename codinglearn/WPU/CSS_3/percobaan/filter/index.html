@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>filter css3</title>
+
+
+<style>
+
+    body {
+        text-align: center;
+    }
+
+    div {
+        display: inline-block;
+        padding: 10px 15px;
+    }
+
+    .original {
+        display: block;
+    }
+
+    .png1 {
+        filter: blur(5px);
+    }
+
+    .png2 {
+        filter: brightness(110%);
+    }
+
+    .png3 {
+        filter: contrast(200%);
+    }
+
+    .png4 {
+        filter: saturate(70%);
+    }
+
+    .png5 {
+        filter: grayscale(100%);
+    }
+
+    .png6 {
+        filter: sepia(25%);
+    }
+
+    .png7 {
+        filter: hue-rotate(50deg);
+    }
+
+    .png8 {
+        filter: invert(100%);
+    }
+
+    .png9 {
+        filter: opacity(.6);
+    }
+
+    .png10 {
+        filter: drop-shadow(50px 5px 10px black);
+    }
+
+</style>
+
+
+
+</head>
+<body>
+
+<div class="original">
+    <img src="../../img/pict.jpg" alt="">
+    <h2>original</h2>
+</div>
+
+<div>
+    <img src="../../img/pict.jpg" alt="" class="png1">
+    <h4>blur(px)</h4>
+
+</div>
+<div>
+    <img src="../../img/pict.jpg" alt="" class="png2">
+    <h4>brightness (angka | %)</h4>
+</div>
+
+<div>
+    <img src="../../img/pict.jpg" alt="" class="png3">
+    <h4>contrast (angka | %)</h4>
+</div>
+
+<div>
+    <img src="../../img/pict.jpg" alt="" class="png4">
+    <h4>saturate (angka | %)</h4>
+</div>
+
+<div>
+    <img src="../../img/pict.jpg" alt="" class="png5">
+    <h4>grayscale (angka | %)</h4>
+</div>
+
+<div>
+    <img src="../../img/pict.jpg" alt="" class="png6">
+    <h4>sepia (angka | %)</h4>
+</div>
+
+<div>
+    <img src="../../img/pict.jpg" alt="" class="png7">
+    <h4>hue-rotate | deg)</h4>
+</div>
+
+<div>
+    <img src="../../img/pict.jpg" alt="" class="png8">
+    <h4>invert (angka | %)</h4>
+</div>
+
+<div>
+    <img src="../../img/pict.jpg" alt="" class="png9">
+    <h4>opacity (angka | %)</h4>
+</div>
+
+<div>
+    <img src="../../img/pict.jpg" alt="" class="png10">
+    <h4>drop shadow (seperti box/text-shadow)</h4>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+}
+
+div {
+    width: 500px;
+    margin: 15px auto;
+    box-sizing: border-box;
+}
+
+.part1 {
+    background-color: red;
+    padding: 13px;
+    border: 7px double orange;
+}
+
+.part2 {
+    background-color: #2e80e5;
+    padding: 11px;
+    border: 3px dotted #00ffd5;
+}

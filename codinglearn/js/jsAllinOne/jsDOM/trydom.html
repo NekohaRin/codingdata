@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>learn dom</title>
+  </head>
+  <body>
+    <img id="pict123" src="../assets/carousel1.jpg" style="height: 250px; width: 350px" alt="test" />
+    <br />
+    <button id="pict1">pict 1</button>
+    <button id="pict2">pict 2</button>
+    <button id="pict3">pict 3</button>
+    <script>
+      document.getElementById("pict1").onclick = function () {
+        document.getElementById("pict123").src = "../assets/carousel1.jpg";
+      };
+
+      document.getElementById("pict2").onclick = function () {
+        document.getElementById("pict123").src = "../assets/carousel2.jpg";
+      };
+
+      document.getElementById("pict3").onclick = function () {
+        document.getElementById("pict123").src = "../assets/carousel3.jpg";
+      };
+    </script>
+  </body>
+</html>

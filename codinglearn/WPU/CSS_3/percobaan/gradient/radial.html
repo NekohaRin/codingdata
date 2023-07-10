@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>radial-trying</title>
+
+    <style>
+
+        div{
+            width: 900px;
+            height: 400px;
+            background-color: bisque;
+            margin: 45px auto;
+        }
+        .mamah1 {
+            background-image: radial-gradient(
+                red, yellow, white
+            );
+        }
+
+        .mamah2 {
+            background-image: radial-gradient(
+                circle, lime, lightblue, yellow
+            );
+        }
+        
+        .mamah3 {
+            background-image: radial-gradient(
+                circle, white 5%, violet 25%, purple 65%, crimson
+            );
+        }
+        
+        .mamah4 {
+            background-image: radial-gradient(
+            closest-side,
+            blue , aqua , lightblue
+            );
+        }
+
+        .mamah5 {
+            background-image: radial-gradient(
+            farthest-corner at top left,
+            rgb(255, 0, 0) 15%, rgb(218, 68, 98) 35%, rgb(255, 255, 255)
+            );
+        }
+
+        .titik {
+            width: 6px;
+            height: 6px;
+            background-color: white;
+            margin: -3px;
+            border: 1px solid black;
+            border-radius: 50%;
+        }
+
+
+
+
+
+
+
+
+
+
+    </style>
+
+</head>
+<body>
+    <div class="mamah1"></div>
+    <div class="mamah2"></div>
+    <div class="mamah3"></div>
+    <div class="mamah4"></div>
+    <div class="mamah5"><div class="titik"></div></div>
+</body>
+</html>

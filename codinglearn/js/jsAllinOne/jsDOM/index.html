@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>jsDOM</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <h1 id="test">test</h1>
+    <button id="touch">touch</button>
+    <script type="text/javascript">
+      document.getElementById("touch").onclick = function () {
+        document.getElementById("test").innerHTML = "welcomee cuyy";
+      };
+      document.getElementById("touch").onclick = function () {
+        document.getElementById("test").innerHTML = "test";
+      };
+    </script>
+  </body>
+</html>

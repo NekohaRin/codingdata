@@ -1,0 +1,1 @@
+macam macam operator js +,-,*,/,[% = modulo/sisa bagi]

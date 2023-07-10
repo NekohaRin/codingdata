@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animasi</title>
+
+    <style>
+
+
+        /* #STRUKTUR DASAR
+        .kotak1 {
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+        }
+        
+        tidak hrus digunakan(optional)
+        .kotak1:hover {
+            animation: bagian1 2s;
+        }
+        
+        @keyframes bagian1 {
+            0% {
+                width: 200px;
+            }
+            100% {
+                width: 500px;
+            }
+        } */
+
+        .kotak1 {
+            width: 100px;
+            height: 100px;
+            background-color: salmon;
+            animation-name: bagian1; /*nama keyframe animasi*/
+            animation-duration: 3s; /*waktu yang dibutuhkan untuk 1 kali putaran*/
+            animation-timing-function: ease-in-out; /*mengatur gaya proses animasi*/
+            animation-iteration-count: 3; /* untuk menetapkan jumlah putaran yang diinginkan(value 1/2/3/dst/infinite) */
+            animation-direction: alternate; /* mengatur arah putaran animasi {value == normal(default), reverse(kebalikan dri default), alternate(gabungan default-reverse), alternate-reverse(gabungan reverse-normal)} */
+            animation-fill-mode: both; /* mengatur akhir dri putaran animasi value{ none(normal), forwards(berhenti di key100%), backwards(seperti none), both(berhenti di nilai key 100%)}*/
+            /* animation-play-state: running; (untuk mengatur berhenti/jalannya animasi{play\pause}) */
+        }
+
+        @keyframes bagian1 {
+            0% {
+                width: 100px;
+            }
+
+            0% {
+                width: 500px;
+            }
+
+            100% {
+                height: 700px;
+            }
+        }
+        
+    </style>
+
+</head>
+<body>
+    <div class="kotak1"></div>
+</body>
+</html>

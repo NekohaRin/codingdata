@@ -1,0 +1,80 @@
+.contain1 {
+    margin: auto;
+    width: 1000px;
+    height: 1000px;
+    border: 3px solid black;
+}
+
+/* .water {
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    margin: auto;
+    animation-name: waterDrop;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes waterDrop {
+    0% {
+        margin-top: 0;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+}
+
+    50% {
+        margin-top: 950px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+}
+
+    75% {
+        margin-top: 800px;
+        width: 50px;
+        height: 50px;
+    }
+
+    100% {
+        margin-top: 950px;
+        width: 75px;
+        height: 2px;
+    }
+} */
+
+.rainEfect1 {
+    margin-left: 100px;
+    width: 3px;
+    height: 1px;
+    background-color: gray;
+    animation-name: rainEffect1;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+@keyframes rainEffect1 {
+    0% {
+        transform: scaleY(2);
+        margin-top: 0;
+        -webkit-transform: scaleY(2);
+        -moz-transform: scaleY(2);
+        -ms-transform: scaleY(2);
+        -o-transform: scaleY(2);
+}
+
+    100% {
+        transform: scaleY(50);
+        margin-top: 900px;
+        -webkit-transform: scaleY(50);
+        -moz-transform: scaleY(50);
+        -ms-transform: scaleY(50);
+        -o-transform: scaleY(50);
+}
+}

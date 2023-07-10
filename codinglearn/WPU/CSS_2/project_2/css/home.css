@@ -1,0 +1,42 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(../img/dark.jpg);
+    /* font: 16px/28px arial, sans-serif; */
+}
+
+.navb {
+    background-color: gray;
+    height: 70px;
+    position: fixed;
+    top: -16px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.navb li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.navb .logo {
+    text-align: center;
+    font-size: 20px;
+    color: whitesmoke;
+    margin-right: 150px;
+}
+
+.navb li a {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    text-decoration: none;
+    font-size: 20px;
+    color: whitesmoke;
+    padding: 20px;
+} 
+
+.navb li a:hover {
+    background-color: red;
+}

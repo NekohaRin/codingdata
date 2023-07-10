@@ -1,0 +1,11 @@
+.container {
+    margin: auto;
+    width: 500px;
+    border: 1px solid black;
+    overflow: auto;
+}
+
+img {
+    float: right;
+    padding: 10 px;
+}

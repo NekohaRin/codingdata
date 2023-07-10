@@ -1,0 +1,175 @@
+body {
+    background-color: rgb(18, 18, 41);
+}
+
+.hwg {
+    text-align: center;
+    color: whitesmoke;
+    filter: drop-shadow(5px 5px 5px white);
+    -webkit-filter: drop-shadow(1px 1px 8px white);
+}
+
+.container {
+    width: 900px;
+    border: 3px solid gray;
+    margin: auto;
+}
+
+.detik {
+    width: 100px;
+    height: 100px;
+}
+
+/* detik 1 */
+.detik1 {
+    background-color: salmon;
+    transition: 2s ease-in-out;
+    -webkit-transition: 2s ease-in-out;
+    -moz-transition: 2s ease-in-out;
+    -ms-transition: 2s ease-in-out;
+    -o-transition: 2s ease-in-out;
+}
+
+.container:hover .detik1 {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    margin-left: 800px;
+}
+
+/* detik 2 */
+.detik2 {
+    background-color: crimson;
+    transition: 2s cubic-bezier(0.48,-0.04, 1, 0.69);
+    -webkit-transition: 2s cubic-bezier(0.48,-0.04, 1, 0.69);
+    -moz-transition: 2s cubic-bezier(0.48,-0.04, 1, 0.69);
+    -ms-transition: 2s cubic-bezier(0.48,-0.04, 1, 0.69);
+    -o-transition: 2s cubic-bezier(0.48,-0.04, 1, 0.69);
+}
+
+.container:hover .detik2 {
+    margin-left: 800px;
+    transform: rotate(90deg);
+    border-radius: 50%;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+/* detik 3 */
+.detik3 {
+    background-color: tomato;
+    transition:  filter 1s 1s, margin-left 2s;
+    -webkit-transition:  filter 1s 1s, margin-left 2s;
+    -moz-transition:  filter 1s 1s, margin-left 2s;
+    -ms-transition:  filter 1s 1s, margin-left 2s;
+    -o-transition:  filter 1s 1s, margin-left 2s;
+}
+
+.container:hover .detik3 {
+    filter: blur(8px) hue-rotate(90deg);
+    -webkit-filter: blur(8px) hue-rotate(90deg);
+    margin-left: 800px;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+/* detik 4 */
+.detik4 {
+    background-color: aqua;
+    transition: 2s;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+}
+
+.container:hover .detik4 {
+    /* transform: scale(1.25); */
+    margin-left: 700px;
+    padding: 50px;
+}
+
+/* detik 5 */
+.detik5 {
+    background-color: yellow;
+    transition: 2s;
+    -webkit-transition: 2s cubic-bezier(0.08,-0.04, 0, 0.96);
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+}
+
+.container:hover .detik5 {
+    scale: .5;
+    filter: blur(20px);
+    -webkit-filter: blur(20px);
+    margin-left: 800px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+/* detik 6 */
+.detik6 {
+    background-color: lightgreen;
+}
+
+/* detik 7 */
+.detik7 {
+    background-color: pink;
+}
+
+/* detik 8 */
+.detik8 {
+    background-color: lightblue;
+}
+
+/* detik 9 */
+.detik9 {
+    background-color: violet;
+}
+
+.container2 {
+    width: 900px;
+    height: 900px;
+    margin: 100px auto;
+    border: 3px solid lightblue;
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    filter: drop-shadow(2px 2px 8px yellow);
+    transition:margin-left 1 3s, margin-top 1s 1s, border-radius 2s, hue-rotate 2s;
+    -webkit-transition:margin-left 1 s, margin-top 1s 1s, border-radius 2s, hue-rotate 2s;
+    -moz-transition:margin-left 1 s, margin-top 1s 1s, border-radius 2s, hue-rotate 2s;
+    -ms-transition:margin-left 1 s, margin-top 1s 1s, border-radius 2s, hue-rotate 2s;
+    -o-transition:margin-left 1 s, margin-top 1s 1s, border-radius 2s, hue-rotate 2s;
+    -webkit-transition: 1s, margin-top 1s 1s, border-radius 1s;
+    -webkit-filter: drop-shadow(2px 2px 8px yellow);
+}
+
+.container2:hover .block {
+    margin-left: 800px;
+    margin-top: 800px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    filter: hue-rotate(90deg);
+    -webkit-filter: hue-rotate(90deg);
+}

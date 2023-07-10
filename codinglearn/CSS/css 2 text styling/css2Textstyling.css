@@ -1,0 +1,16 @@
+h3 {
+	color: red;
+	/*color: red,FF0000,rgb(250,0,0)*/
+	text-align: center;
+	/*center,right=rata kanan,left=rata kiri,justify=rata kanan kiri*/
+	text-indent: 5px;
+	/*text indent untuk paragraf menjorok ; satuan px/%*/
+	text-decoration: none;
+	/*none,underline,overline,line-through*/
+	text-transform: none;
+	/*terdiri dari  none,lowercase,uppercase,capitalize*/
+	letter-spacing: normal;
+	/*letter-spacing berfungsi untuk memberikan jarak antar huruf  ; satuan px*/
+	word-spacing: normal;
+	/*word-spacing berfungsi untuk memberikan jarak antar kalimat (jarak antar baris 1 dan 2)*/
+}

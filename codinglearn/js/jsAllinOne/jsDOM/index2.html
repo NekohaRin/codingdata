@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM2</title>
+
+    <style>
+      #green {
+        background-color: rgb(0, 255, 0);
+      }
+
+      #blue {
+        background-color: rgb(53, 215, 255);
+      }
+
+      #big {
+        font-size: larger;
+      }
+
+      #pict {
+        height: 100px;
+        width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1 id="color">Hayy, ini untuk color</h1>
+      <button id="green">hijau</button>
+      <button id="blue">biru</button>
+    </div>
+
+    <div>
+      <h1 id="size">nah ini untuk size</h1>
+      <button id="small">kecil</button>
+      <button id="big">besar</button>
+    </div>
+
+    <img id="pict" src="../assets/car1.jpg" alt="..." />
+
+    <script>
+      document.getElementById("green").onclick = function () {
+        document.getElementById("color").style.color = "rgb(0, 255, 0)";
+      };
+      document.getElementById("blue").onclick = function () {
+        document.getElementById("color").style.color = "rgb(53, 215, 255)";
+      };
+
+      document.getElementById("small").onclick = function () {
+        document.getElementById("size").style.fontSize = "30px";
+      };
+      document.getElementById("big").onclick = function () {
+        document.getElementById("size").style.fontSize = "50px";
+      };
+
+      document.getElementById("pict").onclick = function () {
+        document.getElementById("pict").style.display = "none";
+      };
+    </script>
+  </body>
+</html>

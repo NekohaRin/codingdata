@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radial Gradient</title>
+
+    <style>
+
+        div {
+            width: 900px;
+            height: 400px;
+            background-color: whitesmoke;
+            margin: 40px auto;
+        }
+
+        .radial1 {
+            background-image: radial-gradient(
+                circle closest-corner at 10% 55%, red, blue
+            );
+        }
+
+        .radial2 {
+            background-image:
+            radial-gradient(
+                farthest-side at bottom right,
+                lightblue 20%, rgba(0, 255, 255, .8) 55%, rgba(0, 0, 255, 1) 
+            );
+        }
+
+        .radial3 {
+            background-image: radial-gradient(
+                circle closest-side at 200px 200px ,
+                rgba(255, 0, 0, .8) 10%, 
+                orange 25%, 
+                rgba(255, 255, 0, .55) 50%, 
+                rgba(255, 255, 255, .45) , 
+                rgba(0, 255, 255, .25)
+            );
+        }
+
+        .radial4 {
+            background-image: radial-gradient(
+                circle farthest-corner at 50px 0,
+                green 10%,
+                lime 25%,
+                rgba(144, 238, 144, .5) 85%,
+                rgba(255, 255, 255, 1)
+            );
+        }
+
+
+
+
+
+
+
+
+
+    </style>
+
+
+</head>
+<body>
+    <div class="radial1"></div>
+    <div class="radial2"></div>
+    <div class="radial3"></div>
+    <div class="radial4"></div>
+</body>
+</html>

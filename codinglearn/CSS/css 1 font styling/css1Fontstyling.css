@@ -1,0 +1,23 @@
+body {
+        font-family: verdana;
+}
+h2 {
+        font-family: arial;
+        font-size:20px;
+        font-weight: normal;
+        /*macam macam font weight lighter,normal,100-900,bold, dan border*/
+        font-variant:small-caps;
+        /*font varian normal dan small caps*/
+        font-style: normal;
+        /*normal,italic,oblique*/
+        line-height: normal;
+        /*normal,pixel,em*/
+
+        /*
+        cara membuat style 1 line ditulis urut [  font: style variant weight size line-height family  ]
+        contoh=   h3 {
+                        font: normal small-caps bold 20px normal arial,times new roman, sans-serif;
+                  }
+        */
+
+}

@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "coc-clangd": "^0.23.0",
+    "coc-eslint": "^1.5.8",
+    "coc.nvim": "^0.0.81"
+  }
+}

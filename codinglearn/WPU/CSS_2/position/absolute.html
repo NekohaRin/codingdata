@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>absolute</title>
+
+    <style>
+        .satu, .dua, .tiga, .kotak1, .kotak2, .kotak3{
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            color: white;
+            line-height: 200px;
+            
+        }
+
+        .satu {
+            background-color: yellow;
+        }
+
+        .dua {
+            background-color: blue;
+            position: relative;
+            left: 30px;
+            top: 75px;
+        }
+
+        .tiga {
+            background-color: violet;
+        }
+
+        .container {
+            margin: auto;
+            width: 600px;
+            border: 5px solid black;
+        }
+
+        .kotak1 {
+
+            background-color: aqua;
+        }
+
+        .kotak2 {
+
+            background-color: violet;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+
+        }
+
+        .kotak3 {
+
+            background-color: red;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="satu">satu</div>
+    <div class="dua">dua</div>
+    <div class="tiga">tiga</div>
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <div class="container">
+        <div class="kotak1">kotak1</div>
+        <div class="kotak2">kotak2</div>
+        <div class="kotak3">kotak3</div>
+    </div>
+
+</body>
+</html>

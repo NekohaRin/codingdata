@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition</title>
+
+
+    <style>
+
+        .cont {
+            width: 1000px;
+            margin: auto;
+            border: 3px solid black;
+        }
+
+        .neko {
+            width: 100px;
+            height: 100px;
+            background-color: turquoise;
+        }
+        
+        .cont:hover .neko{
+            transform: translateX(900px) rotate(720deg);
+            border-radius: 50%;
+        }
+        
+        .neko1{
+            transition: 2s ease;
+        }
+        
+        .neko2{
+            transition: transform 2s 2s, border-radius 1s;
+        }
+        
+        .neko3{
+            transition: 2s ease-out;
+        }
+        
+        .neko4{
+            transition: 2s ease-in-out;
+        }
+        
+        .neko5{
+            transition: 2s linear;
+        }
+
+        .neko6{
+            transition: 2s cubic-bezier(0.62,-0.37, 0.33, 1.46);
+        }
+
+        </style>
+
+
+</head>
+<body>
+    <div class="cont">
+        <div class="neko1 neko"></div>
+        <div class="neko2 neko"></div>
+        <div class="neko3 neko"></div>
+        <div class="neko4 neko"></div>
+        <div class="neko5 neko"></div>
+        <div class="neko6 neko"></div>
+    </div>
+</body>
+</html>

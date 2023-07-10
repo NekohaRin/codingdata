@@ -1,0 +1,51 @@
+/* Styling */
+
+
+body {
+    font: 23px Arial, sans-serif;
+    background-image: url(../img/dark.jpg);;
+}
+
+
+.nav-bar{
+    height: 45px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: grey;
+}
+
+.nav-bar ul li {
+    line-height: 45px;
+    display: inline-block;
+
+}
+
+.nav-bar ul li .bag-navbar {
+
+    color: rgb(51, 51, 51);
+    margin-left: 15px;
+    font-size: 25px;
+    line-height: 45px;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.nav-bar ul li a:hover {
+    background-color: crimson;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+
