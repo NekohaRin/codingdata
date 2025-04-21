@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tugas sesi 5</title>
+  </head>
+  <body>
+      <form action="" id="register">
+          <label for="registerUsername">Username :</label>
+          <input type="text" name="" id="registerUsername">
+          <label for="registerPassword">password :</label>
+          <input type="password" name="" id="registerPassword">
+          <button id="registerButton" onclick="registerBtn()">register</button>
+      </form>
+
+      <form action="" id="login">
+        <label for="loginUsername">Username :</label>
+        <input type="text" name="" id="loginUsername">
+        <label for="loginPassword">Password :</label>
+        <input type="password" name="passwordLog" id="loginPassword">
+        <button id="loginButton" onclick="loginBtn">login</button>
+      </form>
+
+      <script>
+
+        function registerBtn() {
+          let registerUsername = document.getElementById("registerUsername").value
+          let registerPassword = document.getElementById("registerPassword").value
+          let registerButton = document.getElementById("registerButton");
+
+          if (!localStorage.getItem(registerUsername)) {
+            localStorage.setItem(registerUsername, registerPassword);
+            alert("sukses registrasi")
+
+          } else {
+            alert("username sudah tersedia")
+          }
+        }
+
+        function loginBtn() {
+          let loginUsername = document.getElementById("loginUsername").value
+          let loginPassword = document.getElementById("loginPassword").value
+
+          if (localStorage.getItem(loginUsername) === loginPassword) {
+            alert("sukses login");
+            console.log("succes")
+          } else {
+            alert("akun belum terdaftar");
+            console.log("failed")
+          }
+        }
+      </script>
+  </body>
+</html>

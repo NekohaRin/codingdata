@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animasi Teks - Galau by Yovie & Nuno</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-top: 50px;
+            color: #f00;
+        }
+
+        .lyrics {
+            font-size: 1.5em;
+            margin: 20px auto;
+            width: 80%;
+            line-height: 1.6;
+            animation: fadeIn 4s ease-in-out infinite alternate;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .moving-text {
+            display: inline-block;
+            font-size: 1.8em;
+            color: #ff4500;
+            font-weight: bold;
+            animation: moveText 10s linear infinite;
+        }
+
+        @keyframes moveText {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        footer {
+            margin-top: 50px;
+            font-size: 0.9em;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="lyrics">
+        <p>bila cintaku ini salah</p>
+        <p>hatiku tetap untukmuu</p>
+        <p>namun kenyataannya parah</p>
+        <p>dirimu tak pernah untukku</p>
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register & Login</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    form {
+      max-width: 300px;
+      margin: 20px auto;
+    }
+  </style>
+</head>
+<body>
+
+  <form id="registerForm">
+    <h2>Register</h2>
+    <label for="username">Username:</label>
+    <input type="text" id="username" required>
+    <label for="password">Password:</label>
+    <input type="password" id="password" required>
+    <button type="button" onclick="register()">Register</button>
+  </form>
+
+  <form id="loginForm">
+    <h2>Login</h2>
+    <label for="loginUsername">Username:</label>
+    <input type="text" id="loginUsername" required>
+    <label for="loginPassword">Password:</label>
+    <input type="password" id="loginPassword" required>
+    <button type="button" onclick="login()">Login</button>
+  </form>
+
+  <script>
+    function register() {
+      var username = document.getElementById('username').value;
+      var password = document.getElementById('password').value;
+
+      // Check if username is not already registered
+      if (!localStorage.getItem(username)) {
+        localStorage.setItem(username, password);
+        alert('Registration successful!');
+      } else {
+        alert('Username already exists. Please choose a different username.');
+      }
+    }
+
+    function login() {
+      var loginUsername = document.getElementById('loginUsername').value;
+      var loginPassword = document.getElementById('loginPassword').value;
+
+      // Check if username exists and password is correct
+      if (localStorage.getItem(loginUsername) === loginPassword) {
+        alert('Login successful!');
+      } else {
+        alert('Invalid username or password. Please try again.');
+      }
+    }
+  </script>
+
+</body>
+</html>

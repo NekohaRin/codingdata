@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grup {
+            width: 600px;
+            height: 600px;
+            background-color: black;
+        }
+
+        .circle1 {
+            width: 700px;
+            height: 400px;
+            background-color: aqua;
+            animation: muter1 5s infinite linear;
+            border-radius: 50%;
+            position: absolute;
+            top: -80px;
+            left: -100px;
+            filter: blur(4px);
+        }
+        @keyframes muter1 {
+        from {transform: rotate(0deg);}
+        from {transform: rotate(360deg);}
+        }
+
+        .circle2 {
+            width: 700px;
+            height: 400px;
+            background-color: purple;
+            animation: muter2 5s infinite linear;
+            border-radius: 50%;
+            position: absolute;
+            left: 100px;
+            top: 250px;
+            filter: blur(4px);
+        }
+        @keyframes muter2 {
+        from {transform: rotate(0deg);}
+        from {transform: rotate(360deg);}
+        }
+
+        .circle3 {
+            width: 400px;
+            height: 600px;
+            background-color: red;
+            animation: muter3 5s infinite linear;
+            border-radius: 50%;
+            position: absolute;
+            left: 250px;
+            top: -150px;
+            filter: blur(4px);
+        }
+        @keyframes muter3 {
+        from {transform: rotate(0deg);}
+        from {transform: rotate(360deg);}
+        }
+
+        .circle4 {
+            width: 400px;
+            height: 600px;
+            background-color: rgb(0, 255, 0);
+            animation: muter4 3s infinite linear;
+            border-radius: 50%;
+            position: absolute;
+            left: -25px;
+            top: 150px;
+            filter: blur(4px);
+        }
+        @keyframes muter4 {
+        from {transform: rotate(0deg);}
+        from {transform: rotate(360deg);}
+        }
+    </style>
+</head>
+<body>
+    <div class="grup">
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <div class="circle3"></div>
+        <div class="circle4"></div>
+    </div>
+</body>
+</html>

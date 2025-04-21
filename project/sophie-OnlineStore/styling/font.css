@@ -1,0 +1,101 @@
+/* noted calling font
+ *font-family: 'PT Sans', sans-serif;
+ *font-family: 'Nunito', sans-serif;
+
+ */
+
+/*                  NUNITO              */
+@font-face {
+  font-family: "Nunito-Regular";
+  src: url(../fonts/nunito/Nunito-VariableFont_wght.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Nunito-Bold";
+  src: url(../fonts/nunito/Nunito-VariableFont_wght.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+
+/*                  PT SANS              */
+@font-face {
+  font-family: "PTSans-Regular";
+  src: url(../fonts/ptSans/PTSans-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "PTSans-Bold";
+  src: url(../fonts/nunito/Nunito-VariableFont_wght.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+
+/*                  OSWALD              */
+@font-face {
+  font-family: "Oswald-Extralight";
+  src: url(../fonts/oswald/Oswald-VariableFont_wght.ttf);
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Oswald-Light";
+  src: url(../fonts/oswald/Oswald-VariableFont_wght.ttf);
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Oswald-Regular";
+  src: url(../fonts/oswald/Oswald-VariableFont_wght.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Oswald-Bold";
+  src: url(../fonts/oswald/Oswald-VariableFont_wght.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+
+/*                  SALSA              */
+@font-face {
+  font-family: "Salsa-Regular";
+  src: url(../fonts/salsa/Salsa-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Salsa-Bold";
+  src: url(../fonts/salsa/Salsa-Regular.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+
+/*                ROBOTO MONO          */
+@font-face {
+  font-family: "Roboto-Mono-Light";
+  src: url(../fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf);
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto-Mono-Regular";
+  src: url(../fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto-Mono-Bold";
+  src: url(../fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto-Mono-Black";
+  src: url(../fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf);
+  font-style: normal;
+}

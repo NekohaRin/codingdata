@@ -1,0 +1,231 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 300px auto;
+  width: 1900px;
+  height: 350px;
+  display: inline-flex;
+  /*  justify-content: space-around;*/
+}
+
+/*            TTTTTTTT            */
+.container .T {
+  position: absolute;
+}
+
+.container .T .top {
+  width: 235px;
+  height: 50px;
+  background-color: blue;
+}
+
+.container .T .bottom {
+  width: 50px;
+  height: 300px;
+  margin: auto;
+  background-color: cyan;
+}
+
+/*            SSSSSSSS            */
+.container .S {
+  position: relative;
+  left: 250px;
+}
+.container .S .top {
+  width: 235px;
+  height: 50px;
+  background-color: blue;
+}
+
+.container .S .left {
+  width: 50px;
+  height: 100px;
+  background-color: cyan;
+}
+
+.container .S .mid {
+  width: 235px;
+  height: 50px;
+  background-color: blue;
+}
+
+.container .S .right {
+  width: 50px;
+  height: 100px;
+  background-color: cyan;
+  margin-left: 185px;
+}
+
+.container .S .bottom {
+  width: 235px;
+  height: 50px;
+  background-color: blue;
+}
+
+/*            UUUUUUUU            */
+.container .U {
+  position: relative;
+  left: 265px;
+}
+
+.container .U .left {
+  width: 50px;
+  height: 300px;
+  background-color: blue;
+  position: absolute;
+}
+
+.container .U .bottom {
+  width: 235px;
+  height: 50px;
+  background-color: cyan;
+  position: relative;
+  top: 300px;
+}
+
+.container .U .right {
+  width: 50px;
+  height: 300px;
+  background-color: blue;
+  position: relative;
+  left: 185px;
+  bottom: 50px;
+}
+
+/*            NNNNNNNN            */
+.container .N {
+  position: relative;
+  left: 280px;
+}
+
+.container .N .left {
+  width: 50px;
+  height: 350px;
+  background-color: blue;
+  position: absolute;
+}
+
+.container .N .mid {
+  width: 50px;
+  height: 355px;
+  background-color: cyan;
+  position: absolute;
+  transform: rotate(-32deg);
+  left: 90px;
+  bottom: 1px;
+}
+
+.container .N .right {
+  width: 50px;
+  height: 350px;
+  background-color: blue;
+  position: relative;
+  left: 185px;
+}
+
+/*            AAAAAAAA            */
+.container .A {
+  position: relative;
+  height: 350px;
+  left: 530px;
+  box-sizing: border-box;
+}
+
+.container .A .left {
+  width: 50px;
+  height: 400px;
+  transform: rotate(15deg);
+  background-color: cyan;
+  position: absolute;
+  top: -20px;
+}
+
+.container .A .right {
+  width: 50px;
+  height: 375px;
+  transform: rotate(-15deg);
+  background-color: cyan;
+  position: relative;
+  left: 100px;
+  top: -5px;
+}
+
+.container .A .mid {
+  width: 150px;
+  height: 50px;
+  background-color: blue;
+  position: absolute;
+  top: 200px;
+}
+
+/*            MMMMMMMM            */
+.container .M {
+  position: relative;
+
+}
+
+.container .M .left {
+  position: absolute;
+  height: 350px;
+  width: 50px;
+  background-color: blue;
+  left: 690px;
+}
+
+.container .M .mid-l {
+  height: 175px;
+  width: 50px;
+  background-color: cyan;
+  position: absolute;
+  left: 750px;
+  transform: rotate(-50deg);
+  top: -5px;
+}
+
+.container .M .mid-r {
+  height: 175px;
+  width: 50px;
+  background-color: cyan;
+  position: absolute;
+  left: 850px;
+  transform: rotate(50deg);
+  top: -5px;
+}
+
+.container .M .right {
+  position: absolute;
+  height: 350px;
+  width: 50px;
+  background-color: blue;
+  left: 920px;
+}
+
+/*            IIIIIIII            */
+.container .I .left {
+  width: 50px;
+  height: 350px;
+  position: absolute;
+  background-color: darkslateblue;
+  left: 1560px;
+}
+
+.layer1 {
+  height: 300px;
+  width: 1900px;
+  background-color: white;
+  position: fixed;
+  z-index: 1;
+}
+
+.layer2 {
+  height: 300px;
+  width: 1900px;
+  background-color: white;
+  position: fixed;
+  z-index: 1;
+  top: 650px;
+}
