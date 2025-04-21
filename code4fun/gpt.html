@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Resizable Buttons</title>
+    <style>
+        .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.enlarged {
+    transform: scale(1.2);
+}
+
+    </style>
+</head>
+<body>
+    <button id="yesButton" class="button">Yes</button>
+    <button id="noButton" class="button">No</button>
+    <script>
+        document.getElementById('noButton').addEventListener('click', function() {
+    // Menambahkan kelas 'enlarged' pada tombol 'Yes' ketika tombol 'No' diklik
+    document.getElementById('yesButton').classList.add('enlarged');
+
+    // Menghapus kelas 'enlarged' setelah beberapa waktu (misalnya, 1 detik)
+    setTimeout(function() {
+        document.getElementById('yesButton').classList.remove('enlarged');
+    }, 1000);
+});
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+/* FONT */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap");
+
+*,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Nunito, sans-serif;
+}
+
+.container {
+  background-color: lightgreen;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-page {
+  background-color: lightgray;
+  height: 55vh;
+  width: 500px;
+  display: flex;
+  border-radius: 20px;
+  /*justify-content: center;*/
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 9px 9px 22px -7px rgba(0, 0, 0, 0.83);
+}
+
+.head-register {
+  margin-top: 55px;
+  font-size: 25px;
+}
+
+.desc-register {
+  font-size: 15px;
+  margin: 10px 0 50px 0;
+}
+
+.register-page input {
+  width: 300px;
+  height: 35px;
+  font-size: 20px;
+}
+
+#emailReg,
+#usernameReg,
+#passwordReg {
+  margin-bottom: 25px;
+}
+
+.container .register-page #register {
+  margin-bottom: 25px;
+  width: 305px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: blueviolet;
+  border: 0;
+}
+
+.container .register-page .additional a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* LOGINN PAGE */
+.login-page {
+  background-color: lightgray;
+  height: 50vh;
+  width: 500px;
+  display: flex;
+  border-radius: 20px;
+  /*justify-content: center;*/
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 9px 9px 22px -7px rgba(0, 0, 0, 0.83);
+}
+
+.head-login {
+  margin-top: 55px;
+  font-size: 25px;
+}
+
+.desc-login {
+  font-size: 15px;
+  margin: 10px 0 50px 0;
+}
+
+.login-page input {
+  width: 300px;
+  height: 35px;
+  font-size: 20px;
+}
+
+#usernameLog,
+#passwordLog {
+  margin-bottom: 25px;
+}
+
+.container .login-page #login {
+  margin-bottom: 25px;
+  width: 305px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: blueviolet;
+  border: 0;
+}

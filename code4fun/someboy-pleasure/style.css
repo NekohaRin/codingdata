@@ -1,0 +1,787 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 600px;
+    height: 600px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+} 
+
+
+/*                  BACKGROUND               */
+.background {
+    opacity: .75;
+    box-sizing: border-box;
+    width: 2000px;
+    filter: blur(4px);
+}
+            /* PART 1 */
+.bgpart1 {
+    animation: bgpart1 50s ease-in;
+    color: white;
+    position: absolute;
+    top: 170px;
+    left: 100px;
+    font-size: 50px;
+}
+
+@keyframes bgpart1 {
+    0% {scale: 1;}
+    7% {scale: 1;}
+    13% {scale: 2;}
+    100% {scale: 4;}
+} 
+
+.lirikbg-1 {
+    animation: lirikbg-1 50s ease-in;
+}
+@keyframes lirikbg-1 {
+    0% {opacity: 0;}
+    7% {opacity: 0;}
+    8% {opacity: .85;}
+    13% {opacity: .85;}
+    14% {opacity: 0;}
+    100% {opacity: 0;}
+} 
+
+.lirikbg-2 {
+    animation: lirikbg-2 50s ease-in;
+}
+@keyframes lirikbg-2 {
+    0% {opacity: 0;}
+    9% {opacity: 0;}
+    10% {opacity: .85;}
+    13% {opacity: .85;}
+    14% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+
+            /* PART 2 */
+.bgpart2 {
+    animation: bgpart2 50s ease-in;
+    color: white; 
+    position: absolute;
+    top: 170px;
+    left: 70px;
+    font-size: 50px;
+}
+
+@keyframes bgpart2 {
+    0% {scale: 1;}
+    13% {scale: 1;}
+    20% {scale: 2;}
+    100% {scale: 4;}
+} 
+
+.lirikbg-3 {
+    animation: lirikbg-3 50s ease-in;
+}
+@keyframes lirikbg-3 {
+    0% {opacity: 0;}
+    14% {opacity: 0;}
+    15% {opacity: .85;}
+    21% {opacity: .85;}
+    22% {opacity: 0;}
+    100% {opacity: 0;}
+} 
+
+.lirikbg-4 {
+    animation: lirikbg-4 50s ease-in;
+}
+@keyframes lirikbg-4 { 
+    0% {opacity: 0;}
+    17% {opacity: 0;}
+    18% {opacity: .85;}
+    21% {opacity: .85;}
+    22% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+
+
+            /* PART 3 */
+.bgpart3 {
+    animation: bgpart3 50s ease-in;
+    color: white;
+    position: absolute;
+    top: 170px;
+    left: 80px;
+    font-size: 50px;
+}
+
+@keyframes bgpart3 {
+    0% {scale: 1;}
+    23% {scale: 1;}
+    30% {scale: 2;}
+    100% {scale: 4;}
+} 
+
+.lirikbg-5 {
+    animation: lirikbg-5 50s ease-in;
+}
+@keyframes lirikbg-5 { 
+    0% {opacity: 0;}
+    23% {opacity: 0;}
+    24% {opacity: .85;}
+    30% {opacity: .85;}
+    31% {opacity: 0;}
+    100% {opacity: 0;}
+    } 
+
+.lirikbg-6 {
+    animation: lirikbg-6 50s ease-in;
+}
+@keyframes lirikbg-6 {
+    0% {opacity: 0;}
+    27% {opacity: 0;}
+    28% {opacity: .85;}
+    30% {opacity: .85;}
+    31% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+
+            /* PART 4 */
+.bgpart4 {
+    animation: bgpart4 50s ease-in;
+    color: white;
+    position: absolute;
+    top: 170px;
+    left: 30px;
+    font-size: 50px;
+}
+
+@keyframes bgpart4 {
+    0% {scale: 1;}
+    31% {scale: 1;}
+    38% {scale: 2;}
+    100% {scale: 4;}
+} 
+
+.lirikbg-7 {
+    animation: lirikbg-7 50s ease-in;
+}
+@keyframes lirikbg-7 {
+    0% {opacity: 0;}
+    31% {opacity: 0;}
+    32% {opacity: .85;}
+    38% {opacity: .85;}
+    39% {opacity: 0;}
+    100% {opacity: 0;}
+} 
+
+.lirikbg-8 {
+    animation: lirikbg-8 50s ease-in;
+}
+@keyframes lirikbg-8 {
+    0% {opacity: 0;}
+    35% {opacity: 0;}
+    36% {opacity: .85;}
+    38% {opacity: .85;}
+    39% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+
+            /* PART 5 */
+.bgpart5 {
+    animation: bgpart5 50s ease-in;
+    color: white;
+    position: absolute;
+    top: 170px;
+    left: 50px;
+    font-size: 50px;
+}
+
+@keyframes bgpart5 {
+    0% {scale: 1;}
+    39% {scale: 1;}
+    45% {scale: 2;}
+    100% {scale: 4;}
+} 
+
+.lirikbg-9 {
+    animation: lirikbg-9 50s ease-in;
+}
+@keyframes lirikbg-9 {
+    0% {opacity: 0;}
+    39% {opacity: 0;}
+    40% {opacity: .85;}
+    45% {opacity: .85;}
+    46% {opacity: 0;}
+    100% {opacity: 0;}
+} 
+
+.lirikbg-10 {
+    animation: lirikbg-10 50s ease-in;
+}
+@keyframes lirikbg-10 {
+    0% {opacity: 0;}
+    42% {opacity: 0;}
+    43% {opacity: .85;}
+    45% {opacity: .85;}
+    46% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+
+            /* PART 6 */
+.bgpart6 {
+    animation: bgpart6 50s ease-in;
+    color: white;
+    position: absolute;
+    top: 170px;
+    left: 170px;
+    font-size: 50px;
+}
+
+@keyframes bgpart6 {
+    0% {scale: 1;}
+    47% {scale: 1;}
+    54% {scale: 2;}
+    100% {scale: 4;}
+} 
+
+.lirikbg-11 {
+    animation: lirikbg-11 50s ease-in;
+}
+@keyframes lirikbg-11 {
+    0% {opacity: 0;}
+    47% {opacity: 0;}
+    48% {opacity: .85;}
+    54% {opacity: .85;}
+    55% {opacity: 0;}
+    100% {opacity: 0;}
+} 
+
+.lirikbg-12 {
+    animation: lirikbg-12 50s ease-in;
+}
+@keyframes lirikbg-12 {
+    0% {opacity: 0;}
+    49% {opacity: 0;}
+    50% {opacity: .85;}
+    54% {opacity: .85;}
+    55% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+
+            /* PART 7 */
+.bgpart7 {
+    animation: bgpart7 50s ease-in;
+    color: white;
+    position: absolute;
+    top: 170px;
+    left: 50px;
+    font-size: 50px;
+}
+
+@keyframes bgpart7 {
+    0% {scale: 1;}
+    55% {scale: 1;}
+    61% {scale: 2;}
+    100% {scale: 4;}
+} 
+
+.lirikbg-13 {
+    animation: lirikbg-13 50s ease-in;
+}
+@keyframes lirikbg-13 {
+    0% {opacity: 0;}
+    55% {opacity: 0;}
+    56% {opacity: .85;}
+    61% {opacity: .85;}
+    62% {opacity: 0;}
+    100% {opacity: 0;}
+} 
+
+.lirikbg-14 {
+    animation: lirikbg-14 50s ease-in;
+}
+@keyframes lirikbg-14 {
+    0% {opacity: 0;}
+    57% {opacity: 0;}
+    58% {opacity: .85;}
+    61% {opacity: .85;}
+    62% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+
+            /* PART 8 */
+.bgpart8 {
+    animation: bgpart8 50s ease-in;
+    color: white;
+    position: absolute;
+    top: 170px;
+    left: -60px;
+    font-size: 50px;
+
+}
+
+@keyframes bgpart8 {
+    0% {scale: 1;}
+    63% {scale: 1;}
+    71% {scale: 2;}
+    100% {scale: 4;}
+} 
+
+.lirikbg-15 {
+    animation: lirikbg-15 50s ease-in;
+}
+@keyframes lirikbg-15 {
+    0% {opacity: 0;}
+    63% {opacity: 0;}
+    64% {opacity: .85;}
+    71% {opacity: .85;}
+    72% {opacity: 0;}
+    100% {opacity: 0;}
+} 
+
+.lirikbg-16 {
+    animation: lirikbg-16 50s ease-in;
+}
+@keyframes lirikbg-16 {
+    0% {opacity: 0;}
+    66% {opacity: 0;}
+    67% {opacity: .85;}
+    71% {opacity: .85;}
+    72% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+/* .circle1 {
+    width: 600px;
+    height: 600px;
+    background-color: blue;
+    opacity: .05;
+    filter: blur(8px);
+    position: absolute;
+    z-index: 1;
+} */
+
+/*              cc effect            */
+
+
+        .circle1 {
+            width: 700px;
+            height: 400px;
+            background-color: rgb(0, 119, 255);
+            animation: muter1 3s infinite linear;
+            border-radius: 50%;
+            position: absolute;
+            z-index: 1;
+            opacity: .09;
+            top: -80px;
+            left: -100px;
+            filter: blur(50px);
+        }
+        @keyframes muter1 {
+        from {transform: rotate(0deg);}
+        from {transform: rotate(360deg);}
+        }
+
+        .circle2 {
+            width: 700px;
+            height: 400px;
+            background-color: rgb(255, 0, 255);
+            animation: muter2 3s infinite linear;
+            border-radius: 50%;
+            position: absolute;
+            z-index: 1;
+            opacity: .09;
+            left: 100px;
+            top: 250px;
+            filter: blur(50px);
+        }
+        @keyframes muter2 {
+        from {transform: rotate(0deg);}
+        from {transform: rotate(360deg);}
+        }
+
+        .circle3 {
+            width: 400px;
+            height: 600px;
+            background-color: red;
+            animation: muter3 5s infinite linear;
+            border-radius: 50%;
+            position: absolute;
+            z-index: 1;
+            opacity: .09;
+            left: 250px;
+            top: -150px;
+            filter: blur(50px);
+        }
+        @keyframes muter3 {
+        from {transform: rotate(0deg);}
+        from {transform: rotate(360deg);}
+        }
+
+        .circle4 {
+            width: 400px;
+            height: 600px;
+            background-color: rgb(0, 255, 0);
+            animation: muter4 3s infinite linear;
+            border-radius: 50%;
+            position: absolute;
+            z-index: 1;
+            opacity: .09;
+            left: -25px;
+            top: 150px;
+            filter: blur(50px);
+        }
+        @keyframes muter4 {
+        from {transform: rotate(0deg);}
+        from {transform: rotate(360deg);}
+        }
+
+/*                  GROUP 1                  */
+
+.group1 {
+    z-index: 2;
+}
+
+                /* PART 1 */
+.part1 {
+    animation: part1 50s ease-in;
+    color: white;
+    position: absolute;
+    top: 240px;
+    left:250px;
+    font-size: 13px;
+}
+
+@keyframes part1 {
+    0% {scale: 1;}
+    7% {scale: 1;}
+    13% {scale: 2;}
+    100% {scale: 4;}
+} 
+
+.lirik-1 {
+    animation: lirik-1 50s ease-in;
+}
+@keyframes lirik-1 {
+    0% {opacity: 0;}
+    7% {opacity: 0;}
+    8% {opacity: .85;}
+    13% {opacity: .85;}
+    14% {opacity: 0;}
+    100% {opacity: 0;}
+} 
+
+.lirik-2 {
+    animation: lirik-2 50s ease-in;
+}
+@keyframes lirik-2 {
+    0% {opacity: 0;}
+    9% {opacity: 0;}
+    10% {opacity: .85;}
+    13% {opacity: .85;}
+    14% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+
+            /* PART 2 */
+.part2 {
+    animation: part2 50s ease-in;
+    color: white; 
+    position: absolute;
+    top: 240px;
+    left: 230px;
+    font-size: 13px;
+}
+
+@keyframes part2 {
+    0% {scale: 1;}
+    13% {scale: 1;}
+    20% {scale: 2;}
+    100% {scale: 4;}
+} 
+
+.lirik-3 {
+    animation: lirik-3 50s ease-in;
+}
+@keyframes lirik-3 {
+    0% {opacity: 0;}
+    14% {opacity: 0;}
+    15% {opacity: .85;}
+    21% {opacity: .85;}
+    22% {opacity: 0;}
+    100% {opacity: 0;}
+} 
+
+.lirik-4 {
+    animation: lirik-4 50s ease-in;
+}
+@keyframes lirik-4 { 
+    0% {opacity: 0;}
+    17% {opacity: 0;}
+    18% {opacity: .85;}
+    21% {opacity: .85;}
+    22% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+
+
+            /* PART 3 */
+.part3 {
+    animation: part3 50s ease-in;
+    color: white;
+    position: absolute;
+    top: 240px;
+    left: 240px;
+    font-size: 13px;
+}
+
+@keyframes part3 {
+    0% {scale: 1;}
+    23% {scale: 1;}
+    30% {scale: 2;}
+    100% {scale: 4;}
+} 
+
+.lirik-5 {
+    animation: lirik-5 50s ease-in;
+}
+@keyframes lirik-5 { 
+    0% {opacity: 0;}
+    23% {opacity: 0;}
+    24% {opacity: .85;}
+    30% {opacity: .85;}
+    31% {opacity: 0;}
+    100% {opacity: 0;}
+    } 
+
+.lirik-6 {
+    animation: lirik-6 50s ease-in;
+}
+@keyframes lirik-6 {
+    0% {opacity: 0;}
+    27% {opacity: 0;}
+    28% {opacity: .85;}
+    30% {opacity: .85;}
+    31% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+
+            /* PART 4 */
+.part4 {
+    animation: part4 50s ease-in;
+    color: white;
+    position: absolute;
+    top: 240px;
+    left: 225px;
+    font-size: 13px;
+}
+
+@keyframes part4 {
+    0% {scale: 1;}
+    31% {scale: 1;}
+    38% {scale: 2;}
+    100% {scale: 4;}
+} 
+
+.lirik-7 {
+    animation: lirik-7 50s ease-in;
+}
+@keyframes lirik-7 {
+    0% {opacity: 0;}
+    31% {opacity: 0;}
+    32% {opacity: .85;}
+    38% {opacity: .85;}
+    39% {opacity: 0;}
+    100% {opacity: 0;}
+} 
+
+.lirik-8 {
+    animation: lirik-8 50s ease-in;
+}
+@keyframes lirik-8 {
+    0% {opacity: 0;}
+    35% {opacity: 0;}
+    36% {opacity: .85;}
+    38% {opacity: .85;}
+    39% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+
+            /* PART 5 */
+.part5 {
+    animation: part5 50s ease-in;
+    color: white;
+    position: absolute;
+    top: 240px;
+    left: 230px;
+    font-size: 13px;
+}
+
+@keyframes part5 {
+    0% {scale: 1;}
+    39% {scale: 1;}
+    45% {scale: 2;}
+    100% {scale: 4;}
+} 
+
+.lirik-9 {
+    animation: lirik-9 50s ease-in;
+}
+@keyframes lirik-9 {
+    0% {opacity: 0;}
+    39% {opacity: 0;}
+    40% {opacity: .85;}
+    45% {opacity: .85;}
+    46% {opacity: 0;}
+    100% {opacity: 0;}
+} 
+
+.lirik-10 {
+    animation: lirik-10 50s ease-in;
+}
+@keyframes lirik-10 {
+    0% {opacity: 0;}
+    42% {opacity: 0;}
+    43% {opacity: .85;}
+    45% {opacity: .85;}
+    46% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+
+            /* PART 6 */
+.part6 {
+    animation: part6 50s ease-in;
+    color: white;
+    position: absolute;
+    top: 240px;
+    left: 260px;
+    font-size: 13px;
+}
+
+@keyframes part6 {
+    0% {scale: 1;}
+    47% {scale: 1;}
+    54% {scale: 2;}
+    100% {scale: 4;}
+} 
+
+.lirik-11 {
+    animation: lirik-11 50s ease-in;
+}
+@keyframes lirik-11 {
+    0% {opacity: 0;}
+    47% {opacity: 0;}
+    48% {opacity: .85;}
+    54% {opacity: .85;}
+    55% {opacity: 0;}
+    100% {opacity: 0;}
+} 
+
+.lirik-12 {
+    animation: lirik-12 50s ease-in;
+}
+@keyframes lirik-12 {
+    0% {opacity: 0;}
+    49% {opacity: 0;}
+    50% {opacity: .85;}
+    54% {opacity: .85;}
+    55% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+
+            /* PART 7 */
+.part7 {
+    animation: part7 50s ease-in;
+    color: white;
+    position: absolute;
+    top: 240px;
+    left: 230px;
+    font-size: 13px;
+}
+
+@keyframes part7 {
+    0% {scale: 1;}
+    55% {scale: 1;}
+    61% {scale: 2;}
+    100% {scale: 4;}
+} 
+
+.lirik-13 {
+    animation: lirik-13 50s ease-in;
+}
+@keyframes lirik-13 {
+    0% {opacity: 0;}
+    55% {opacity: 0;}
+    56% {opacity: .85;}
+    61% {opacity: .85;}
+    62% {opacity: 0;}
+    100% {opacity: 0;}
+} 
+
+.lirik-14 {
+    animation: lirik-14 50s ease-in;
+}
+@keyframes lirik-14 {
+    0% {opacity: 0;}
+    57% {opacity: 0;}
+    58% {opacity: .85;}
+    61% {opacity: .85;}
+    62% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+
+            /* PART 8 */
+.part8 {
+    animation: part8 50s ease-in;
+    color: white;
+    position: absolute;
+    top: 240px;
+    left: 200px;
+    font-size: 13px;
+
+}
+
+@keyframes part8 {
+    0% {scale: 1;}
+    63% {scale: 1;}
+    71% {scale: 2;}
+    100% {scale: 4;}
+} 
+
+.lirik-15 {
+    animation: lirik-15 50s ease-in;
+}
+@keyframes lirik-15 {
+    0% {opacity: 0;}
+    63% {opacity: 0;}
+    64% {opacity: .85;}
+    71% {opacity: .85;}
+    72% {opacity: 0;}
+    100% {opacity: 0;}
+} 
+
+.lirik-16 {
+    animation: lirik-16 50s ease-in;
+}
+@keyframes lirik-16 {
+    0% {opacity: 0;}
+    66% {opacity: 0;}
+    67% {opacity: .85;}
+    71% {opacity: .85;}
+    72% {opacity: 0;}
+    100% {opacity: 0;}
+}

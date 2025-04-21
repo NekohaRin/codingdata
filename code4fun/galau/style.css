@@ -1,0 +1,36 @@
+.container {
+    width: 600px;
+    height: 600px;
+    background-color: black;
+}
+
+h1 {
+    display: inline;
+    color: whitesmoke;
+    margin-right: 5px;
+    margin-top: 100px;
+}
+
+.satu {
+    margin-left: 200px;
+    animation: satu 25s ease-in-out; /*4s*/
+}
+
+.dua {
+    margin-left: 200px;
+    animation: satu 25s ease-in-out; /*5s*/
+}
+
+.tiga {
+    margin-left: 200px;
+    animation: satu 25s ease-in-out; /*4s*/
+}
+
+.empat {
+    margin-left: 200px;
+    animation: satu 25s ease-in-out; /*4s*/
+}
+
+.teks2, .teks3, .teks4 {
+    margin-top: 20px;
+}

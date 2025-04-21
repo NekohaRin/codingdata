@@ -1,0 +1,30 @@
+discord presence
+gitlens
+python
+python debugger
+auto rename tag
+c/c++
+c/c++ extension pack
+c/c++ themes
+cmake
+cmake tools
+code runner codeLLDB
+color highlight
+css peek
+cute pink light theme 
+doki theme
+github theme
+glassit-vsc
+highlight matching tag
+image preview
+indent rainbow
+live server
+live share
+material icon theme
+pink cat boo theme
+prettier
+pylance
+vim
+vim theme
+vscode-icons
+vscode-pets
