@@ -1,0 +1,65 @@
+    body {
+      font-family: Arial, sans-serif;
+      background-color: lightblue;
+      padding: 20px;
+    }
+
+    .container {
+      background: whitesmoke;
+      padding: 20px;
+      border-radius: 10px;
+      width: 450px;
+      margin: auto;
+      box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.35);
+      -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+
+    input,
+    select,
+    textarea,
+    button {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .rdc {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin-top: 5px;
+    }
+
+    .rdc label {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      cursor: pointer;
+    }
+
+
+
+    button {
+      margin-top: 15px;
+      cursor: pointer;
+      background: #4CAF50;
+      color: white;
+      font-weight: bold;
+      border: none;
+    }
+
+    button.reset {
+      background: #e74c3c;
+    }

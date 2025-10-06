@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>bimbel babarsari</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <h2>Form Pendaftaran</h2>
+    <form id="forming">
+      <label for="f-name">Name : </label>
+      <input type="text" id="name" name="f-name" value="">
+      <label for="f-email">Email : </label>
+      <input type="text" id="email" name="f-email" value="">
+
+      <!-- radio paket bimbel -->
+      <div class="rdc">
+        <label for="package" class="judul">Paket Bimbingan</label> <br>
+
+        <label for="intensif">
+          <input type="radio" id="intensif" name="package" value="Paket Intensif SBMPTN">
+          Paket Intensif SBMPTN</label>
+        <label for="reguler">
+          <input type="radio" id="reguler" name="package" value="Paket Reguler">
+          Paket Reguler</label>
+        <label for="supercamp">
+          <input type="radio" id="supercamp" name="package" value="Paket Supercamp SBMPTN">
+          Paket Supercamp SBMPTN</label>
+      </div>
+
+      <!-- checkbox additional fasility -->
+      <div class="rdc">
+        <label for="fasility" class="judul">Fasilitas Tambahan</label> <br>
+        <label for="full">
+          <input type="checkbox" id="full" name="" value="Modul Cetak Lengkap">
+          Modul Cetak Lengkap</label>
+        <label for="pdf">
+          <input type="checkbox" id="pdf" name="" value="Modul PDF">
+          Modul PDF</label>
+        <label for="record">
+          <input type="checkbox" id="record" name="" value="Video Rekaman Kelas">
+          Video Rekaman Kelas</label>
+        <label for="group">
+          <input type="checkbox" id="group" name="" value="Grup Diskusi Telegram">
+          Grup Diskusi Telegram</label>
+      </div>
+
+      <!-- dropdown location -->
+      <label for="location">Lokasi Cabang</label>
+      <select name="location" id="location">
+        <option value="jakarta">Jakarta Pusat</option>
+        <option value="surabaya">Surabaya</option>
+        <option value="yogyakarta">Yogyakarta</option>
+        <option value="makassar">Makassar</option>
+        <option value="aceh">Aceh</option>
+      </select>
+
+      <!-- dropdown payment -->
+      <label for="payment">Metode Pembayaran</label>
+      <select name="payment" id="payment">
+        <option value="transfer">Transfer Bank</option>
+        <option value="cash">Tunai</option>
+        <option value="eWallet">E-Wallet</option>
+      </select>
+      <label for="note">Note : </label>
+      <textarea rows="3" cols="4" id="note" style="color: lightblue;" placeholder="Catatan Tambahan"></textarea>
+      <button type="submit">Submit</button>
+      <button class="reset" type="reset">Reset</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

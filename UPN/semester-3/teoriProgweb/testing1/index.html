@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Pendaftaran Bimbingan Belajar</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f0f5;
+      padding: 20px;
+    }
+    .form-container {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      width: 400px;
+      margin: auto;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    label {
+      margin-top: 10px;
+      display: block;
+    }
+    input, select, textarea, button {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      margin-top: 15px;
+      cursor: pointer;
+      background: #4CAF50;
+      color: white;
+      font-weight: bold;
+      border: none;
+    }
+    button.reset {
+      background: #e74c3c;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h2>Form Pendaftaran</h2>
+    <form id="pendaftaranForm">
+      <label for="nama">Nama Lengkap:</label>
+      <input type="text" id="nama" name="nama" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="paket">Paket Bimbingan:</label>
+      <select id="paket" name="paket">
+        <option value="">--Pilih Paket--</option>
+        <option value="Reguler">Reguler</option>
+        <option value="Intensif UTBK">Intensif UTBK</option>
+        <option value="Supercamp SBMPTN">Supercamp SBMPTN</option>
+      </select>
+
+      <label>Fasilitas Tambahan:</label>
+      <input type="checkbox" name="fasilitas" value="Modul Cetak"> Modul Cetak Lengkap <br>
+      <input type="checkbox" name="fasilitas" value="Modul PDF"> Modul PDF <br>
+      <input type="checkbox" name="fasilitas" value="Video Rekaman"> Video Rekaman Kelas <br>
+      <input type="checkbox" name="fasilitas" value="Grup Telegram"> Grup Diskusi Telegram
+
+      <label for="lokasi">Lokasi Cabang:</label>
+      <select id="lokasi" name="lokasi">
+        <option value="">--Pilih Lokasi--</option>
+        <option>Jakarta Pusat</option>
+        <option>Surabaya</option>
+        <option>Yogyakarta</option>
+        <option>Makassar</option>
+        <option>Aceh</option>
+      </select>
+
+      <label>Metode Pembayaran:</label>
+      <input type="radio" name="bayar" value="Transfer Bank"> Transfer Bank <br>
+      <input type="radio" name="bayar" value="E-Wallet"> E-Wallet <br>
+      <input type="radio" name="bayar" value="Tunai"> Tunai
+
+      <label for="catatan">Catatan Tambahan:</label>
+      <textarea id="catatan" name="catatan" placeholder="Write your additional note here"></textarea>
+
+      <button type="submit">Submit</button>
+      <button type="reset" class="reset">Reset</button>
+    </form>
+  </div>
+
+  <script>
+    document.getElementById("pendaftaranForm").addEventListener("submit", function(e) {
+      e.preventDefault(); // supaya tidak langsung refresh
+
+      let nama = document.getElementById("nama").value.trim();
+      let email = document.getElementById("email").value.trim();
+      let paket = document.getElementById("paket").value;
+      let lokasi = document.getElementById("lokasi").value;
+      let bayar = document.querySelector("input[name='bayar']:checked");
+
+      if (nama === "" || email === "") {
+        alert("Nama dan Email wajib diisi!");
+        return;
+      }
+      if (paket === "") {
+        alert("Silakan pilih paket bimbingan!");
+        return;
+      }
+      if (lokasi === "") {
+        alert("Silakan pilih lokasi cabang!");
+        return;
+      }
+      if (!bayar) {
+        alert("Silakan pilih metode pembayaran!");
+        return;
+      }
+
+      // Jika lolos validasi
+      alert("Form berhasil disubmit!\nTerima kasih sudah mendaftar.");
+      // Bisa diarahkan ke halaman result.html
+    });
+  </script>
+</body>
+</html>
