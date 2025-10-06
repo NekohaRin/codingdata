@@ -154,9 +154,44 @@ h1 {
     -webkit-animation: popUp 1s .5s forwards;
 }
 
+
+.next {
+    width: 52px;
+    height: 52px;
+    background-image: url(../assets/right.png);
+    position: absolute;
+    text-indent: -99999px;
+    top: 45%; 
+    opacity: 0;
+}
+
+.overlay:target .prev,
+.overlay:target .next {
+    animation: fadeAjah .5s .5s forwards;
+}
+.prev {
+    width: 52px;
+    height: 52px;
+    background-image: url(../assets/left.png);
+    position: absolute;
+    text-indent: -99999px;
+    top: 45%;
+    opacity: 0;
+}
+
 .overlay .close:target img{
     animation: fadeOut 1s;
     -webkit-animation: fadeOut 1s;
+}
+
+@keyframes fadeAjah {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 100;
+    }
 }
 
 @keyframes fadeIn {

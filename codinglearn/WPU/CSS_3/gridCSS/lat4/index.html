@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>CSS Grid FR</title>
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        background-color: #ddd;
+      }
+
+      .container {
+        width: 60%;
+        margin: 50px auto;
+        display: grid;
+        /* grid-template-columns: repeat(4, 1fr) repeat(5, 1.5fr); mengulangi perintah seperti loop  */
+        /* grid-template-columns: 1fr max-content 1fr; (min-content = ukuran kolom menyesuaikan kata jika lebih dari satu kata ke-2 sampai ke-n dibuat ke bawah) (max-content = semua kata dijadikan dalam 1 baris sepanjang apapun) */
+      }
+
+      .item {
+        background-color: rgb(138, 209, 254);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .item:nth-child(even) {
+        background-color: rgb(255, 142, 142);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+    <div class="item">5</div>
+    <div class="item">6</div>
+    <div class="item">7</div>
+    <div class="item">8</div>
+    <div class="item">9</div>
+    </div>
+
+  </body>
+<html>
