@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button onclick="getClick()">click me</button>
+    <button type="submit" id="submit">Submit</button>
+    <p id="text">teks</p>
+
+
+    <input type="text" id="inputText">
+    <button id="addButton">addButton</button>
+    <ul>
+        <li>awalan</li>
+    </ul>
+    <script>
+    //   function getClick() {
+    //     alert("aww clicked");
+    //   }
+
+    //   const btn = document.getElementById('submit');
+    //   btn.addEventListener('click', () => alert('terkirim'));
+    //   btn.addEventListener('mouseover', () => alert('apa hayoo'))
+    //   btn.addEventListener('mouseout', () => alert('terimakacii'))
+    const text = document.getElementById('text');
+    function getClick() {
+        text.style.color = 'red'
+    }
+
+    text.addEventListener('mouseover', () => text.style.color = 'yellow')
+    </script>
+  </body>
+</html>

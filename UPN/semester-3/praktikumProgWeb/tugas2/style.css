@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: darkgray;
+  background-image: url(study.jpg);
+  background-size: cover;
+  /* color: white; */
+}
+
+.container {
+  justify-content: center;
+  width: 800px;
+  padding: 25px;
+  margin: 75px auto;
+  border-radius: 25px;
+  background-color: rgba(226, 226, 226, 0.75);
+  backdrop-filter: blur(20px);
+  box-shadow: 5px 5px 10px rgba(158, 158, 158, 0.85);
+}
+
+/* Judul */
+.container h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Label */
+label {
+  display: block;
+  margin: 10px 0 5px;
+  font-size: 14px;
+}
+
+/* Input, select, textarea */
+input[type="text"],
+input[type="email"],
+input[type="radio"],
+input[type="checkbox"],
+select,
+textarea {
+  margin-bottom: 12px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  font-size: 14px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #ddd;
+}
+
+/* Radio & Checkbox inline */
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+label[for="intensif"],
+label[for="reguler"],
+label[for="supercamp"],
+label[for="full"],
+label[for="pdf"],
+label[for="record"],
+label[for="group"] {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+/* Tombol */
+button {
+  padding: 12px;
+  margin: 8px 4px 0 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button[type="reset"] {
+  background: #888;
+  color: #fff;
+}
+
+button[type="reset"]:hover {
+  background: #666;
+}
+
+button[type="submit"] {
+  background: #1e3c72;
+  color: #fff;
+}
+
+button[type="submit"]:hover {
+  background: #2a5298;
+}
+
+/* for succes.php */
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+  color: #333;
+}
+
+th {
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.total {
+  font-weight: bold;
+  color: darkred;
+}

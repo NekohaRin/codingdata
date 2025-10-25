@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .bg-red {
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- dom structure -->
+    <h1 id="main">Hello World</h1>
+    <p class="list">ini contoh struktur dom</p>
+    <ul>
+      <li>item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+    </ul>
+    <!-- dom manipulasi elemen -->
+    <div class="coba1" id="coba1">
+      <h1>title</h1>
+      <p>ini text</p>
+    </div>
+    <p id="paragraf">ini paragraf</p>
+    <p id="cobaid">ini element parag</p>
+    <ul>
+      <li class="li">ini item 1</li>
+      <li class="li">ini item 2</li>
+      <li class="li">ini item 3</li>
+    </ul>
+    <div class="coba2"></div>
+    <!-- Menambah dan hapus element -->
+     <h1 id="tambahElement">menambah dan Menghapus elemen</h1>
+     <h1 id="hapusElement">hapuss</h1>
+
+    <script>
+      //dom structure
+      console.log(document.querySelectorAll("li"));
+      let daftar = document.querySelectorAll("li"); //akses semua element li
+      daftar[1].style.color = "red";
+      let biasa = document.querySelector("li"); //akses element li index-0
+      biasa.style.color = "yellow";
+
+      //akses dom
+      // document.getElementByID --> mendapatkan element html pakai id
+      let main = document.getElementById("main");
+      main.style.color = "indigo";
+      //mendapatkan elemnt html pakai class
+      let list = document.getElementsByClassName("list");
+      list[0].style.color = "blue";
+      //mendapatkan element html pakai tagName
+      document.getElementsByTagName("p");
+      document.getElementsByTagName("p.list");
+
+      // Manipulasi element
+      // mengubah content
+      //1. element.textContent
+      const paragraf = document.getElementById("paragraf");
+      const coba1 = document.getElementById("coba1");
+      console.log("ini pakai text content");
+      console.log(coba1.textContent);
+      paragraf.textContent = "paragraf diubah";
+      // 2. element.innerHTML
+      paragraf.innerHTML = "jadi pakai innerHTML";
+      console.log("ini pakai innerHTML");
+      console.log(coba1.innerHTML);
+
+      // manipulasi attribute ==> menambahkan attribute class ke html melalui js
+      const cobaid = document.getElementById("cobaid");
+      cobaid.setAttribute("class", "bg-red");
+
+      // manipulasi style
+      const li = document.getElementsByClassName('li');
+      li[2].style.color = 'green';
+      li[1].style.fontSize = '32px';
+
+      // Menambah dan Menghapus element html
+      const newDiv = document.createElement('div')
+      newDiv.textContent = "ini div dibuat dari script"
+      document.body.appendChild(newDiv) 
+
+      const tambahElement = document.getElementById('tambahElement')
+      const buatId = document.createElement('h2');
+      buatId.textContent = 'ini dibuat di js tambahkan sebelum title'
+      document.body.insertBefore(buatId, tambahElement)
+
+      // Hapus element
+        const hapusElement = document.getElementById('hapusElement');
+        hapusElement.remove() //gunakan remove.child jika ingin hapus anakan li
+    </script>
+  </body>
+</html>

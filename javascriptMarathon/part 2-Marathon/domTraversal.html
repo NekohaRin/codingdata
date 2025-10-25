@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>title dom traversal</h1>
+    <p>Ini teks</p>
+    <ul id="list-item">
+      <li id="item-1">item 1</li>
+      <li id="item-2">item 2</li>
+      <li id="item-3">item 3</li>
+    </ul>
+    <script>
+      const item1 = document.getElementById("item-1");
+      const item2 = document.getElementById("item-2");
+      console.log(item1.parentNode); //mencari parrent element
+      console.log(item1.parentElement);
+      //mengetahui anakan item
+      const listItem = document.getElementById("list-item");
+      console.log(listItem.childNodes); // menghitung whitespace
+      console.log(listItem.children); //gunakan ini agar fokus isi
+      console.log(listItem.firstChild); //keluar text karena ada whitespace
+      console.log(listItem.firstElementChild); //sebaiknya ini
+
+      //know sibling
+      console.log(item1.nextSibling); //sama membaca whitespace
+      console.log(item1.nextElementSibling); //item saja
+      console.log(item2.previousElementSibling);
+    </script>
+  </body>
+</html>
